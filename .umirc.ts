@@ -9,6 +9,11 @@ export default defineConfig({
   layout: {
     title: 'AI与我',
   },
+  clientLoader: {},
+  exportStatic: {},
+  base: '/ai/',
+  ignoreMomentLocale: true,
+  publicPath: '/ai/',
   routes: [
     {
       path: '/',
