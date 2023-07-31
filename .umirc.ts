@@ -40,6 +40,9 @@ export default defineConfig({
       component: './Resume',
     },
   ],
+  analytics: {
+    ga_v2: 'G-QTKV715HW0', // google analytics 的 key (GA 4)
+  },
   npmClient: 'yarn',
 });
 

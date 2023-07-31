@@ -28,6 +28,8 @@ const Ai:React.FC =()=>{
             >
                 <ProCard title="短视频文案" colSpan="50%">
                    <ProForm
+                       style={{ margin: 'auto', marginTop: 8, maxWidth: 600 }}
+                       layout="vertical"
                        submitter={
                         {
                             searchConfig: {
